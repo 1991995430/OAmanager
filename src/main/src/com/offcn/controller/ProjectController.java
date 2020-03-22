@@ -47,7 +47,7 @@ public class ProjectController {
     @ResponseBody
     public List<Project> getProjectList(){
 
-        List<Project> list =projectService.selectByProEmpCus();
+        List<Project> list = projectService.selectByProEmpCus();
         System.out.println("查询到数据为：：："+list);
         return list;
     }
