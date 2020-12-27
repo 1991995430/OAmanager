@@ -5,16 +5,193 @@
       <artifact name="OAmanagerCode:war" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ca30166a-36b6-4b29-bc11-f558822be29d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/OAmanagerCode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/controller/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/src/com/offcn/controller/ProjectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OAmanager/WEB-INF/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/OAmanager/WEB-INF/classes/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/Intercept/Logininterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/Intercept/Logininterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/controller/AnalysisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/controller/AnalysisController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/controller/ArchivesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/controller/ArchivesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/controller/AttachmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/controller/AttachmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/controller/BaoxiaoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/controller/BaoxiaoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/controller/DataCollectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/controller/DataCollectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/controller/EmailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/controller/EmailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/controller/FunctionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/controller/FunctionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/controller/ModelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/controller/ModelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/controller/MsgController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/controller/MsgController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/controller/NoticeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/controller/NoticeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/controller/PositionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/controller/PositionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/controller/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/controller/ProjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/controller/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/controller/RoleSourcesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/controller/RoleSourcesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/controller/SourcesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/controller/SourcesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/controller/TaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/jties/JtiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/jties/JtiesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/AnalysisMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/AnalysisMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/AnalysisMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/AnalysisMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/ArchivesMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/ArchivesMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/ArchivesMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/ArchivesMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/AttachmentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/AttachmentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/AttachmentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/AttachmentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/BaoxiaoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/BaoxiaoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/BaoxiaoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/BaoxiaoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/BasepropertiesMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/BasepropertiesMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/BasepropertiesMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/BasepropertiesMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/CustomerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/CustomerMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/CustomerMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/CustomerMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/DatacollectMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/DatacollectMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/DatacollectMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/DatacollectMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/DeptMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/DeptMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/DeptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/DeptMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/EmailMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/EmailMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/EmailMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/EmailMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/EmpRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/EmpRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/EmpRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/EmpRoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/EmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/EmployeeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/EvaluateMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/EvaluateMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/EvaluateMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/EvaluateMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/ForumpostMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/ForumpostMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/ForumpostMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/ForumpostMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/FunctionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/FunctionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/FunctionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/FunctionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/IndexvalueMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/IndexvalueMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/IndexvalueMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/IndexvalueMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/LevelMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/LevelMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/LevelMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/LevelMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/ModuleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/ModuleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/ModuleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/ModuleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/MsgMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/MsgMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/MsgMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/MsgMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/NoticeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/NoticeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/NoticeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/NoticeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/PositionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/PositionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/PositionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/PositionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/ProjectMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/ProjectMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/ProjectMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/ProjectMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/RoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/RoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/RoleSourcesMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/RoleSourcesMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/RoleSourcesMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/RoleSourcesMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/SourcesMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/SourcesMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/SourcesMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/SourcesMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/TaskMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/TaskMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/TaskMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/TaskMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/Analysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/Analysis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/AnalysisExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/AnalysisExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/AnalysisWithBLOBs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/AnalysisWithBLOBs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/Archives.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/Archives.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/ArchivesExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/ArchivesExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/Attachment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/Attachment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/AttachmentExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/AttachmentExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/Baoxiao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/Baoxiao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/BaoxiaoExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/BaoxiaoExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/Baseproperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/Baseproperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/BasepropertiesExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/BasepropertiesExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/CustomerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/CustomerExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/Datacollect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/Datacollect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/DatacollectExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/DatacollectExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/Dept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/Dept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/DeptExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/DeptExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/EmailExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/EmailExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/EmpRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/EmpRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/EmpRoleExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/EmpRoleExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/EmployeeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/EmployeeExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/Evaluate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/Evaluate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/EvaluateExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/EvaluateExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/Forumpost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/Forumpost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/ForumpostExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/ForumpostExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/Function.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/Function.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/FunctionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/FunctionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/FunctionWithBLOBs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/FunctionWithBLOBs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/Indexvalue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/Indexvalue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/IndexvalueExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/IndexvalueExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/Level.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/LevelExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/LevelExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/Module.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/Module.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/ModuleExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/ModuleExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/ModuleWithBLOBs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/ModuleWithBLOBs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/Msg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/Msg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/MsgExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/MsgExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/Notice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/Notice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/NoticeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/NoticeExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/PositionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/PositionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/ProjectExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/ProjectExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/Properties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/Properties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/RoleExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/RoleExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/RoleSources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/RoleSources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/RoleSourcesExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/RoleSourcesExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/Sources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/Sources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/SourcesExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/SourcesExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/TaskExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/TaskExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/pojo/pojopv/Msg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/pojo/pojopv/Msg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/AnalysisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/AnalysisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/AnalysisServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/AnalysisServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/ArchivesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/ArchivesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/ArchivesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/ArchivesServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/AttachmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/AttachmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/AttachmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/AttachmentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/BaoxiaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/BaoxiaoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/BaoxiaoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/BaoxiaoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/DatacollectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/DatacollectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/DatacollectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/DatacollectServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/EmpRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/EmpRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/EmpRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/EmpRoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/FunctionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/FunctionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/FunctionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/FunctionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/IndexService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/IndexService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/IndexServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/IndexServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/ModelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/ModelService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/ModelServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/ModelServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/NoticeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/NoticeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/NoticeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/NoticeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/PositionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/PositionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/PositionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/PositionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/ProjectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/ProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/ProjectServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/RoleSourcesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/RoleSourcesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/RoleSourcesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/RoleSourcesServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/SourcesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/SourcesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/SourcesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/SourcesServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/TaskService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/service/TaskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/service/TaskServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/utils/DateConverterUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/utils/DateConverterUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/utils/MyJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/utils/MyJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/src/com/offcn/utils/ObjectSerializable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/offcn/utils/ObjectSerializable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +219,6 @@
     <expand />
     <select />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="oamadsd" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -67,15 +241,10 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="X:\apache-maven-3.6.1\LocalWarehouse" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="X:\apache-maven-3.6.1\conf\settings.xml" />
+        <option name="localRepository" value="D:\Maven\Repository" />
+        <option name="mavenHome" value="D:\Maven\apache-maven-3.0.5" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.0.5\conf\settings.xml" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1ZJ1Hj7vxV3vLmUe9ilsFO0BDqG" />
@@ -120,10 +289,10 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/Users/Administrator/IdeaProjects/oamadsd/src/main/src/com/offcn/service/SourcesServiceImpl.java&#10;msgtime&#9;PSI&#9;JAVA://com.offcn.pojo.Msg#msgtime" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -133,7 +302,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -145,6 +314,17 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Oamanagesha" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.41" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER" value="false" />
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/OAmanagerCode_war/" />
@@ -222,29 +402,7 @@
       </method>
     </configuration>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <option name="contentProportion" value="0.18993506" />
-          <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -280,115 +438,32 @@
       <workItem from="1584868300362" duration="1246000" />
       <workItem from="1584870987115" duration="3149000" />
       <workItem from="1584885973552" duration="1789000" />
+      <workItem from="1609059844548" duration="445000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#Tomcat_Server" timestamp="1584542988034">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1609059948315">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="552" y="178" key="#Tomcat_Server/0.0.1920.1040@0.0.1920.1040" timestamp="1584542988034" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584887382493">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1609059948315" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1609060110653">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1584778443755" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584887382493" />
-    <state x="615" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584773841630">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="615" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1584773841630" />
-    <state x="615" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584543616031" />
-    <state x="560" y="114" key="CommitChangelistDialog2" timestamp="1584887653773">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="560" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584887653773" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1584887110639">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584887110639" />
-    <state x="830" y="411" width="273" height="291" key="Github.ShareDialog" timestamp="1584544126908">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="830" y="411" width="273" height="291" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584544126908" />
-    <state width="1293" height="323" key="GridCell.Tab.0.bottom" timestamp="1584887371209">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1293" height="323" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584887371209" />
-    <state width="1293" height="323" key="GridCell.Tab.0.center" timestamp="1584887371209">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1293" height="323" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584887371209" />
-    <state width="1293" height="323" key="GridCell.Tab.0.left" timestamp="1584887371208">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1293" height="323" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584887371208" />
-    <state width="1293" height="323" key="GridCell.Tab.0.right" timestamp="1584887371209">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1293" height="323" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584887371209" />
-    <state width="1293" height="323" key="GridCell.Tab.1.bottom" timestamp="1584887371104">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1293" height="323" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584887371104" />
-    <state width="1293" height="323" key="GridCell.Tab.1.center" timestamp="1584887371103">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1293" height="323" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584887371103" />
-    <state width="1293" height="323" key="GridCell.Tab.1.left" timestamp="1584887371103">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1293" height="323" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584887371103" />
-    <state width="1293" height="323" key="GridCell.Tab.1.right" timestamp="1584887371104">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1293" height="323" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584887371104" />
-    <state width="1293" height="323" key="GridCell.Tab.2.bottom" timestamp="1584887371104">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1293" height="323" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584887371104" />
-    <state width="1293" height="323" key="GridCell.Tab.2.center" timestamp="1584887371104">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1293" height="323" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584887371104" />
-    <state width="1293" height="323" key="GridCell.Tab.2.left" timestamp="1584887371104">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1293" height="323" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584887371104" />
-    <state width="1293" height="323" key="GridCell.Tab.2.right" timestamp="1584887371104">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1293" height="323" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584887371104" />
-    <state width="1293" height="323" key="GridCell.Tab.3.bottom" timestamp="1584887238386">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1293" height="323" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584887238386" />
-    <state width="1293" height="323" key="GridCell.Tab.3.center" timestamp="1584887238386">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1293" height="323" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584887238386" />
-    <state width="1293" height="323" key="GridCell.Tab.3.left" timestamp="1584887238386">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1293" height="323" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584887238386" />
-    <state width="1293" height="323" key="GridCell.Tab.3.right" timestamp="1584887238386">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1293" height="323" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584887238386" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1584886794569">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584886794569" />
-    <state x="567" y="70" width="786" height="900" key="find.popup" timestamp="1584887625770">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="567" y="70" width="786" height="900" key="find.popup/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1584774402206" />
-    <state x="567" y="70" width="786" height="900" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584887625770" />
-    <state x="650" y="311" key="git4idea.merge.GitPullDialog" timestamp="1584887737783">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="650" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584887737783" />
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1609060110653" />
   </component>
 </project>
