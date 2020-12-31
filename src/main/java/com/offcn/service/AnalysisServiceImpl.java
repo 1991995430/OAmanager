@@ -28,7 +28,7 @@ public class AnalysisServiceImpl implements AnalysisService{
     public List<AnalysisWithBLOBs> selectByExampleWithBLOBs(String proname) {
 
         AnalysisExample example = new AnalysisExample();
-       AnalysisExample.Criteria criteria =  example.createCriteria();
+        AnalysisExample.Criteria criteria = example.createCriteria();
         criteria.andPronameEqualTo(proname);
 
         return analysisMapper.selectByExampleWithBLOBs(example);

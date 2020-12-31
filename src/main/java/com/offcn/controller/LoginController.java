@@ -24,23 +24,23 @@ public class LoginController {
 
     @RequestMapping("/login")
     @ResponseBody
-    public Msg dologin(String username, String password, HttpSession session){
-        Employee employee= employeeService.selectByUserNamePwdExample(username,password);
-        Msg msg=new Msg();
+    public Msg dologin(String username, String password, HttpSession session) {
+        Employee employee = employeeService.selectByUserNamePwdExample(username, password);
+        Msg msg = new Msg();
         //如果查询出对象不为空
-        if(employee!=null){
-            session.setAttribute("employee",employee);
+        if (employee != null) {
+            session.setAttribute("employee", employee);
             msg.setMsg("登录成功!");
-        }
-        else {
+        } else {
             msg.setMsgCode(500);
             msg.setMsg("登陆失败");
         }
         return msg;
 
     }
+
     @RequestMapping("/logout")
-    public ModelAndView logout(HttpSession session){
+    public ModelAndView logout(HttpSession session) {
         System.out.println(session.getAttribute("employee"));
         session.removeAttribute("employee");
         ModelAndView modelAndView = new ModelAndView();

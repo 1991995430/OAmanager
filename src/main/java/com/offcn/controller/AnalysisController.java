@@ -23,11 +23,11 @@ public class AnalysisController {
 
     @RequestMapping("/addAnalysis")
     @ResponseBody
-    public Msg addAnalysis(AnalysisWithBLOBs analysisWithBLOBs){
+    public Msg addAnalysis(AnalysisWithBLOBs analysisWithBLOBs) {
         Msg msg = new Msg();
 
         int istate = analysisService.insert(analysisWithBLOBs);
-        if(istate!=1){
+        if (istate != 1) {
             msg.setMsgCode(500);
             msg.setMsg("添加失败");
         }
@@ -39,7 +39,7 @@ public class AnalysisController {
 
     @RequestMapping("/getAnalysis")
     @ResponseBody
-    public List<AnalysisWithBLOBs> getAnalysis(@Param("proname") String proname){
+    public List<AnalysisWithBLOBs> getAnalysis(@Param("proname") String proname) {
 
 
         List<AnalysisWithBLOBs> list = analysisService.selectByExampleWithBLOBs(proname);

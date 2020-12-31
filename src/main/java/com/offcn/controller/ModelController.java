@@ -21,11 +21,11 @@ public class ModelController {
 
     @RequestMapping("/modelAdd")
     @ResponseBody
-    public Msg modelAdd(ModuleWithBLOBs moduleWithBLOBs){
+    public Msg modelAdd(ModuleWithBLOBs moduleWithBLOBs) {
 
         int istate = modelService.insert(moduleWithBLOBs);
         Msg msg = new Msg();
-        if(istate!=1){
+        if (istate != 1) {
             msg.setMsgCode(500);
             msg.setMsg("添加失败！");
         }
@@ -34,10 +34,10 @@ public class ModelController {
 
     @RequestMapping("/getModel")
     @ResponseBody
-    public List<ModuleWithBLOBs> getModel(Integer analysisFk){
+    public List<ModuleWithBLOBs> getModel(Integer analysisFk) {
 
-       List<ModuleWithBLOBs> list = modelService.selectByExampleWithBLOBs(analysisFk);
+        List<ModuleWithBLOBs> list = modelService.selectByExampleWithBLOBs(analysisFk);
 
-       return list;
+        return list;
     }
 }

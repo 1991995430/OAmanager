@@ -27,9 +27,9 @@ public class EmployeeController {
     //employeebyproject
     @RequestMapping("/employeebyproject")
     @ResponseBody
-    public List<Employee> employeebyproject(){
+    public List<Employee> employeebyproject() {
 
-        List<Employee> list =employeeService.selectByExample();
+        List<Employee> list = employeeService.selectByExample();
 
         return list;
     }
@@ -37,7 +37,7 @@ public class EmployeeController {
 
     @RequestMapping("/getEmpoyeePosition")
     @ResponseBody
-    public List<Employee> getEmpoyeePosition(){
+    public List<Employee> getEmpoyeePosition() {
 
         return employeeService.selectEmpPos();
 
@@ -45,16 +45,16 @@ public class EmployeeController {
 
     @RequestMapping("/addEmployee")
     @ResponseBody
-    public Msg addEmployee(Employee employee, @RequestParam("roleid")String[] roleid){
+    public Msg addEmployee(Employee employee, @RequestParam("roleid") String[] roleid) {
         Msg msg = new Msg();
         /*System.out.println("employee::"+employee);
         System.out.println("role:::"+ Arrays.asList(roleid));*/
         int istate = employeeService.insertSelectiveReturnEmpid(employee);
-        if(istate!=1){
+        if (istate != 1) {
             msg.setMsg("添加失败");
             msg.setMsgCode(500);
         }
-        empRoleService.insertEmpRole(roleid,employee.getEid());
+        empRoleService.insertEmpRole(roleid, employee.getEid());
 
         return msg;
     }
@@ -62,10 +62,10 @@ public class EmployeeController {
 
     @RequestMapping("/getUserName")
     @ResponseBody
-    public Msg getUserName(String username){
+    public Msg getUserName(String username) {
         Msg msg = new Msg();
         List<Employee> employees = employeeService.selectByUserName(username);
-        if(employees.size()>0){
+        if (employees.size() > 0) {
             msg.setMsgCode(500);
         }
         return msg;

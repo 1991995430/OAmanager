@@ -22,18 +22,18 @@ public class IndexController {
     private IndexService indexService;
 
     @RequestMapping("/index")
-    public ModelAndView index(){
+    public ModelAndView index() {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("menu");
         return modelAndView;
     }
 
     @RequestMapping("/menu")
-    public ModelAndView menu(HttpSession session){
+    public ModelAndView menu(HttpSession session) {
 
-        Employee employee = (Employee)session.getAttribute("employee");
+        Employee employee = (Employee) session.getAttribute("employee");
         int eid = 0;
-        if(employee!=null){
+        if (employee != null) {
             eid = employee.getEid();
         }
         List<Sources> sources = indexService.selectByEid(eid);
@@ -41,7 +41,7 @@ public class IndexController {
         System.out.println(sources);
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("menu");
-        modelAndView.addObject("sources",sources);
+        modelAndView.addObject("sources", sources);
         return modelAndView;
     }
 

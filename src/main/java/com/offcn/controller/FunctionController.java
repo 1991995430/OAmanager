@@ -23,21 +23,21 @@ public class FunctionController {
 
     @RequestMapping("/functionAdd")
     @ResponseBody
-    public Msg functionAdd(FunctionWithBLOBs record){
+    public Msg functionAdd(FunctionWithBLOBs record) {
         int istate = functionService.insert(record);
         Msg msg = new Msg();
-        if(istate!=1){
-          msg.setMsgCode(200);
-          msg.setMsg("添加失败");
+        if (istate != 1) {
+            msg.setMsgCode(200);
+            msg.setMsg("添加失败");
         }
         return msg;
     }
 
     @RequestMapping("/getFunction")
     @ResponseBody
-    public List<Function> getFunction(Integer modeleFk){
+    public List<Function> getFunction(Integer modeleFk) {
 
-        List<Function> list =  functionService.selectByExample(modeleFk);
+        List<Function> list = functionService.selectByExample(modeleFk);
 
         return list;
     }
