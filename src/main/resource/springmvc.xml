@@ -66,7 +66,7 @@
 			<mvc:exclude-mapping path="/skin/**" />
 			<mvc:exclude-mapping path="/script/**" />
 			<mvc:exclude-mapping path="/zTree/**" />
-			<bean class="com.offcn.Intercept.Logininterceptor"></bean>
+			<bean class="com.offcn.Intercept.interceptor"></bean>
 		</mvc:interceptor>
 	</mvc:interceptors>
 
